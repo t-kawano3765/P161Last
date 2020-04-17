@@ -8,12 +8,11 @@ public class mainhiandblow {
 		creatrandom cratrandom = new creatrandom();
 
 		int [] rsno = cratrandom.creatRandom();
+	
+//		if(rsno[1]==rsno[2]&&rsno[2]==rsno[3]&&rsno[3]==rsno[4]) {
 
-		System.out.println("");
-		for ( int i : rsno) {	
-			System.out.print(i);
-
-		}
+			for ( int i : rsno) {	
+				System.out.print(i);		
+			}
 	}
-
 }
