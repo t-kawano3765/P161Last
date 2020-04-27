@@ -33,6 +33,5 @@ public class mainhiandblow {
 //			   System.out.print(rsno[i]);
 //	
 
-
 }
 }
