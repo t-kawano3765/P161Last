@@ -6,6 +6,7 @@ public class mainhiandblow {
 		// TODO 自動生成されたメソッド・スタブ
 		int x;
 		System.out.println("数当てゲームを始めます。");
+		System.out.println("各4桁の数字を1~８の値を入力して下さい");
 		
 		creatrandom cratrandom = new creatrandom(); //クリエートランダムのインスタンス化
 
