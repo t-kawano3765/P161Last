@@ -23,12 +23,12 @@ public class mainhiandblow {
 			
 			  int [] hikaku =  comparsion.comParsion(rsno); //comParsionのメッセージと引数の設定
 
-			  for ( x=0; x<hikaku.length; x++) {
+//			  for ( x=0; x<hikaku.length; x++) {
             //System.out.println(hikaku[x]);
 //            for (int i=0; i<rsno.length; i++) { //条件  戻り値の要素数繰り返し
 //			   System.out.print("最後戻り値"+rsno[i]); //変数rsnoの要素数を順番に出力する
 //            }
-			  }
+//			  }
 //            for (int i=0; i<rsno.length; i++) {
 //			   System.out.print(rsno[i]);
 //	

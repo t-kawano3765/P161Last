@@ -15,9 +15,8 @@ public class Comparsiontest {
 
 		for (b = 0; b <= 10; b++) { //10回繰り返す
 			//			System.out.println("ただいまのプレイ回数"+count);
-			if (b != 10) {
-
-				System.out.print("乱数は");
+			if (b != 11) {
+            System.out.print("乱数は");
 				for (y = 0; y < 4; y++) {
 					System.out.print("    " + ransu[y]);
 				}
@@ -56,102 +55,104 @@ public class Comparsiontest {
 			//System.out.println("1GamePlay+b+”です。");
 
 			for (a = 1;; a++) {
-				if (randomno[a] == inputno[b]) {
+				if (randomno[a] == inputno[a]) {
 					count = a++;
 					System.out.println(a);
 					System.out.println("ゴールドは" + count + "です");
 					break;
 					}
-				else if (randomno[a] == inputno[b]) {
+				else if (randomno[a] == inputno[a]) {
 					
 				}
                if (a<6) {
             	   break;
                }
-			}	
-		}
+
+
 		
 		
-		return randomno;
-		}
-	}
+
 					
 					
 			
-//			for (a=0 ; ; a++) {
-//				if(randomno[a]==inputno[a]&& randomno[1]==inputno[1] && randomno[2]==inputno[2]&& randomno[3]==inputno[3]) {
-//					System.out.println("ゴールド4つです");
-//					break;
-//				}
-//				else if(randomno[0] == inputno[0] && randomno[1]==inputno[1] && randomno[3]==inputno[3] ) {
-//					System.out.println("ゴールド3つです");
-//					break;
-//				}
-//				else if(randomno[0] == inputno[0] && randomno[1]==inputno[1] && randomno[2]==inputno[2] ) {
-//					System.out.println("ゴールド3つです");
-//					break;
-//				}
-//				else if(randomno[0] == inputno[0] && randomno[2]==inputno[2] && randomno[3]==inputno[3] ) {
-//					System.out.println("ゴールド3つです");
-//					break;
-//				}
-//
-//				else if(randomno[0] == inputno[0] && randomno[3]==inputno[3] ) {
-//					System.out.println("ゴールド2つです");
-//					break;
-//				}
-//				else if(randomno[0] == inputno[0] && randomno[2]==inputno[2]) {
-//					System.out.println("ゴールド2つです");
-//					break;
-//				}
-//				else if(randomno[0] == inputno[0] && randomno[1]==inputno[1]) {
-//					System.out.println("ゴールド2つです");
-//					break;
-//				}
-//
-//				else if(randomno[0]==inputno[0] ) {
-//					System.out.println("ゴールド1つです");
-//					break;
-//				}
-//				else if( randomno[0]==inputno[1] || randomno[0]==inputno[2] ||  randomno[0]==inputno[3]) {
-//					System.out.println("シルバー1つです");	
-//					break;
-//
-//				}
-//               
-//				else if( randomno[1]==inputno[1] && randomno[2]==inputno[2]&& randomno[3]==inputno[3]) {
-//					System.out.println("ゴールド3つです");	
-//					break;
-//				}
-//				else if( randomno[1]==inputno[1] && randomno[3]==inputno[3]) {
-//					System.out.println("ゴールド2つです");	
-//					break;
-//				}
-//				else if( randomno[1]==inputno[1] && randomno[2]==inputno[2]) {
-//					System.out.println("ゴールド2つです");	
-//					break;
-//				}
-//
-//				else if( randomno[1]==inputno[1] ) {
-//					System.out.println("ゴールド1つです");	
-//					break;
-//				}
-//
-//				else if( randomno[2]==inputno[2] && randomno[3]==inputno[3]) {
-//					System.out.println("ゴールド2つです");	
-//					break;
-//
-//				}
-//				else if( randomno[2]==inputno[2] ) {
-//					System.out.println("ゴールド1つです");	
-//					break;
-//
-//				}
-//				else if( randomno[3]==inputno[3] ) {
-//					System.out.println("ゴールド1つです");	
-//					break;
-//				}
+			for (a=0 ; ; a++) {
+				if(randomno[a]==inputno[a]&& randomno[1]==inputno[1] && randomno[2]==inputno[2]&& randomno[3]==inputno[3]) {
+					System.out.println("ゴールド4つです");
+					break;
+				}
+				else if(randomno[0] == inputno[0] && randomno[1]==inputno[1] && randomno[3]==inputno[3] ) {
+					System.out.println("ゴールド3つです");
+					break;
+				}
+				else if(randomno[0] == inputno[0] && randomno[1]==inputno[1] && randomno[2]==inputno[2] ) {
+					System.out.println("ゴールド3つです");
+					break;
+				}
+				else if(randomno[0] == inputno[0] && randomno[2]==inputno[2] && randomno[3]==inputno[3] ) {
+					System.out.println("ゴールド3つです");
+					break;
+				}
+
+				else if(randomno[0] == inputno[0] && randomno[3]==inputno[3] ) {
+					System.out.println("ゴールド2つです");
+					break;
+				}
+				else if(randomno[0] == inputno[0] && randomno[2]==inputno[2]) {
+					System.out.println("ゴールド2つです");
+					break;
+				}
+				else if(randomno[0] == inputno[0] && randomno[1]==inputno[1]) {
+					System.out.println("ゴールド2つです");
+					break;
+				}
+
+				else if(randomno[0]==inputno[0] ) {
+					System.out.println("ゴールド1つです");
+					break;
+				}
+				else if( randomno[0]==inputno[1] || randomno[0]==inputno[2] ||  randomno[0]==inputno[3]) {
+					System.out.println("シルバー1つです");	
+					break;
+
+				}
+               
+				else if( randomno[1]==inputno[1] && randomno[2]==inputno[2]&& randomno[3]==inputno[3]) {
+					System.out.println("ゴールド3つです");	
+					break;
+				}
+				else if( randomno[1]==inputno[1] && randomno[3]==inputno[3]) {
+					System.out.println("ゴールド2つです");	
+					break;
+				}
+				else if( randomno[1]==inputno[1] && randomno[2]==inputno[2]) {
+					System.out.println("ゴールド2つです");	
+					break;
+				}
+
+				else if( randomno[1]==inputno[1] ) {
+					System.out.println("ゴールド1つです");	
+					break;
+				}
+
+				else if( randomno[2]==inputno[2] && randomno[3]==inputno[3]) {
+					System.out.println("ゴールド2つです");	
+					break;
+
+				}
+				else if( randomno[2]==inputno[2] ) {
+					System.out.println("ゴールド1つです");	
+					break;
+
+				}
+				else if( randomno[3]==inputno[3] ) {
+					System.out.println("ゴールド1つです");	
+					break;
+				}
+			}
 
 
-
-
+			}
+		}
+		return randomno;
+	}	
+}
